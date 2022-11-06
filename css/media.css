@@ -1,0 +1,573 @@
+@media (max-width: 1600px){
+    /* about */
+    .about__container{
+      margin-bottom: 80px;
+    }
+
+    .about__des{
+      margin-bottom: 58px;
+    }
+
+    .about__cards{
+      flex-direction: column;
+    }
+
+    .about__cards .card{
+      width: 100%;
+    }
+
+    .about__cards .card{
+      padding: 64px 75px;
+    }
+
+    .about__cards .card-big{
+      margin: 0;
+      padding: 0;
+      margin-bottom: 32px;
+      min-height: 641px;
+    }
+
+    .detailed__des{
+      max-width: none;
+    }
+
+    .about__cards .cards__card .card__des{
+      width: 100%;
+    }
+
+    /* work */
+    .work__container{
+      margin-bottom: 67px;
+    }
+
+    .step{
+      margin-bottom: 50px;
+    }
+
+    .work__cards .card__des{
+      width: auto;
+    }
+
+    .work__cards .card__des{
+      margin-bottom: 24px;
+    }
+
+    /* footer */
+    .footer__right{
+      display: none;
+    }
+
+    .footer__betwen{
+      margin-right: 0;
+    }
+
+
+}
+
+@media (max-width: 1440px){
+
+  /* header */
+  .header{
+    margin-bottom: 40px;
+  }
+
+  .header__nav{
+    display: none;
+  }
+
+  .burger{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 23px;
+    border-radius: 3px;
+    color: var(--black);
+  }
+
+  .burder__line{
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    height: 3px;
+    border-radius: inherit;
+    background-color: currentColor;
+    transform: translateX(-50%);
+  }
+
+  .burder__line:nth-child(1){
+    top: 0px;
+  }
+
+  .burder__line:nth-child(3){
+      bottom: 0px;
+  }
+
+  .burder__line:nth-child(2){
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+  }
+
+  .header__logo{
+    margin: 0 auto;
+    width: 150px;
+  }
+}
+
+@media (max-width: 1024px){
+
+  .container{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .section-offset{
+    margin-bottom: 35px;
+  }
+
+  /* offer */
+  .offer__container{
+    padding: 161px 77px;
+  }
+
+  .offer__title{
+    margin-bottom: 16px;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  .offer__des{
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  /* about */
+
+  .detailed__des{
+    max-width: 433px;
+  }
+
+  .about__cards .cards__card .card__des{
+    width: 100%;
+  }
+
+  /* work */
+  .work__container{
+    margin-bottom: 100px;
+  }
+
+  .work__cards .cards__right{
+    width: 840px
+  }
+
+  /* questions */
+  .questions__container{
+    margin-bottom: 82px;
+  }
+
+  .questions__list .list__des{
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+}
+
+@media (max-width: 768px){
+
+  /* header */
+  .header__container{
+    height: 69px;
+  }
+
+  /* offer */
+  .offer__container{
+    padding: 160px 40px;
+    border-radius: 24px;
+  }
+
+  .offer__title{
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .offer__des{
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* about */
+
+  .about__des{
+    margin-bottom: 55px;
+  }
+
+  .about__cards .cards__card .card__detailed{
+    padding: 34px 40px;
+    border-radius: 24px
+  }
+
+  .about__cards .card{
+    min-height: 235px;
+    padding: 35px 46px 35px 40px;
+    border-radius: 24px
+  }
+
+  .about__cards .card-big{
+    padding: 0;
+    min-height: 650px;
+  }
+
+
+  .about__cards .card svg{
+    margin-right: 14px;
+    min-width: 114px;
+    min-height: 99px;
+  }
+
+  .about__cards .cards__card .card__title{
+    width: 100%;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about__cards .cards__card .card__des{
+    width: 100%;
+  }
+
+  /* work */
+  .work__container {
+    margin-bottom: 68px;
+  }
+
+  .work__title{
+    margin-bottom: 45px;
+  }
+
+  .work__cards{
+    flex-direction: column-reverse;
+  }
+
+  .work__cards .cards__right{
+    margin-bottom: 38px;
+    width: 100%;
+    min-height: 284px;
+    border-radius: 24px;
+  }
+  .cards__left{
+    margin: 0;
+    width: 100%;
+  }
+
+  .work__cards .card__des{
+    margin: 0;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  .step{
+    max-width: none;
+  }
+
+  /* questions */
+
+  .questions{
+    margin-top: -30px;
+  }
+
+  .questions__container{
+    margin-bottom: 36px;
+  }
+
+  /* footer */
+  .footer__container{
+    flex-direction: column-reverse;
+  }
+
+  .footer__betwen{
+    margin-bottom: 50px;
+  }
+
+  .footer__social {
+    margin-top: 13px;
+  }
+
+  .footer__list{
+    display: none;
+  }
+
+  .form__botton .btn{
+    margin-right: 20px;
+    padding: 19px 44px;
+  }
+
+  .section-input{
+    max-width: 542px;
+  }
+}
+
+@media (max-width: 460px){
+
+  .container{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .btn{
+    padding: 13px 28px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .detailed__btn{
+    padding: 12px 44px;
+    border: 2px solid #FF9900;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--orange);
+  }
+
+  .section-title{
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .section-des{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* offer */
+  .offer__container{
+    min-height: 308px;
+    border-radius: 16px;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .offer__title{
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .offer__des{
+    margin-bottom: 32px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  /* about */
+  .about{
+    margin-bottom: -21px;
+  }
+
+  .about__des{
+    margin-bottom: 14px;
+  }
+
+  .about__cards .card{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    border-color: transparent;
+  }
+
+  .about__cards .card-big{
+    margin-bottom: 230px;
+    min-height: 200px;
+    border-radius: 16px;
+  }
+
+  .about__cards .cards__card .card__detailed{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    bottom: -103%;
+    background-color: transparent;
+  }
+
+  .detailed__des{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: var(--black);
+  }
+
+  .about__cards .card svg{
+    margin: 0;
+    margin-bottom: 12px;
+    min-width: 64px;
+    min-height: 49px;
+    width: 64px;
+    height: 49px;
+  }
+
+  .about__cards .cards__card .card__title{
+    margin-bottom: 4px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about__cards .cards__card .card__des{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* work */
+
+  .card__botton .btn{
+    margin-right: auto;
+    padding: 12px 44px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .card__botton .btn-lite{
+    margin: 0;
+    padding: 12px 32px;
+    border-radius: 8px;
+  }
+
+  /* footer */
+  .footer__container{
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  .footer__title{
+    margin-bottom: 19px;
+  }
+
+  .form__textarea{
+    margin-bottom: 25px;
+  }
+
+  .form__botton{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form__botton .btn{
+    margin-bottom: 14px;
+    padding: 12px 28px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .form__label{
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--black-white);
+  }
+
+  .footer__betwen{
+    margin-bottom: 15px;
+  }
+
+  .footer__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .footer__logo{
+    width: 131px;
+  }
+
+  .footer__social .social__item:not(:last-child){
+    margin-right: 19px;
+  }
+
+  .footer__social{
+    margin-top: 5px;
+  }
+
+  .footer__social .social__link svg{
+    width: 40px;
+  }
+
+}
+
+@media (max-width: 320px){
+
+  .section-offset{
+    margin-bottom: 59px;
+  }
+
+  /* header */
+
+  .header{
+    margin-bottom: 30px;
+    border-radius: 16px;
+  }
+
+  .header__logo{
+    width: 110px;
+  }
+
+
+  /* work */
+  .work__container{
+    margin-bottom: 76px;
+  }
+
+  .work__title{
+    margin-bottom: 19px;
+  }
+
+  .step{
+    margin-bottom: 14px;
+  }
+
+  .item__link{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .work__cards .cards__right{
+    margin-bottom: 16px;
+    min-height: 160px;
+    border-radius: 16px;
+  }
+
+  .work__cards .card__title{
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .work__cards .card__des{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* questions */
+  .questions{
+    margin-bottom: -31px;
+  }
+
+  .questions__title{
+    margin-bottom: 17px;
+  }
+
+  .questions__list .list__item{
+    padding: 30px 0;
+  }
+
+  .questions__list .list__des{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .questions__list .list__plus{
+    width: 29px;
+  }
+
+  .questions__list .list__plus svg{
+    width: 30px;
+  }
+
+}
